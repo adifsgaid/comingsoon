@@ -8,8 +8,8 @@ export default function HomePage() {
   return (
     <Layout>
       <Hero
-        title="Landing template for startups"
-        content="Our landing page template works for all the devices, so you only have to setup it once, and get beautiful results forever."
+        title="Coming soon..."
+        content="In the meantime, Sign up for our monthly newsletter to stay up to date.        "
         illustration={<HeroIllustration />}
       />
     </Layout>

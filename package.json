@@ -1,18 +1,9 @@
 {
   "version": "2.0.0",
-  "name": "holly-react",
-  "description": "React version of Holly",
-  "author": "Luke McDonald (https://lukemcdonald.com/)",
-  "homepage": "https://lukemcdonald.github.io/holly-react",
+  "name": "moduslab",
+  "description": "Expert web development & design agency. Specializing in Shopify e-commerce stores. Custom & responsive websites. Professional team ready to bring your ideas to life.",
   "keywords": [],
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/lukemcdonald/holly-react.git"
-  },
-  "bugs": {
-    "url": "https://github.com/lukemcdonald/holly-react/issues"
-  },
   "scripts": {
     "build": "npm run build:css && vite build",
     "build:css": "postcss styles/tailwind.css -o src/assets/styles.css",

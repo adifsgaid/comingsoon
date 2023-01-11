@@ -35,7 +35,7 @@ export function NewsletterForm({ className, onSubmit, submitBtn }) {
           value={email}
           onChange={handleChange}
           autoComplete="off"
-          className="w-full rounded-sm border border-gray-300 bg-white px-4 py-3 text-sm text-gray-500 shadow-none"
+          className="mb-10 w-[140px] rounded-sm border border-gray-300 bg-white px-4 py-3 text-sm text-gray-500 shadow-none lg:w-full"
         />
         {success && (
           <div className="mt-2 text-xs italic text-gray-500">
@@ -46,7 +46,7 @@ export function NewsletterForm({ className, onSubmit, submitBtn }) {
 
       <div className="control">
         <button
-          className="-mt-px inline-flex cursor-pointer justify-center whitespace-nowrap rounded-sm border-0 bg-gradient-to-r from-secondary-500 to-secondary-400 py-4 px-7 text-center font-medium leading-4 text-white no-underline shadow-lg"
+          className="-mt-px inline-flex cursor-pointer justify-center whitespace-nowrap rounded-sm border-0 bg-gradient-to-r from-primary-500 to-primary-400 py-4 px-7 text-center font-medium leading-4 text-white no-underline shadow-lg"
           type="submit"
         >
           {submitBtn || 'Submit'}

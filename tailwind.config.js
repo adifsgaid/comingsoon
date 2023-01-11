@@ -33,7 +33,7 @@ module.exports = {
       black: '#000000',
       white: '#ffffff',
       gray: colors.slate,
-      primary: colors.indigo,
+      primary: colors.orange,
       secondary: colors.rose,
       tertiary: colors.emerald,
     },
