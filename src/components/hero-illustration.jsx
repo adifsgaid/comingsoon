@@ -174,7 +174,7 @@ export function HeroIllustration() {
         className="hero-illustration-browser drop-shadow-2xl"
       >
         <svg
-          className="ml-auto max-w-screen-sm lg:max-w-none"
+          className="ml-auto max-w-screen-sm"
           width="800"
           height="450"
           viewBox="0 0 800 450"
